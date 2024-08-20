@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../jost-fonts-latin/jost-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../jost-fonts-latin/jost-v15-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../jost-fonts-latin/jost-v15-latin-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "Jost";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost";
+  font-weight: 500;
+}
+
+:root {
+  --white-color: #ffffff;
+  --black-light: #333136;
+  --footer-bg-color: #1d1c1e;
+  --orange-bg-color: #e7816b;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1211px;
+  margin: auto;
+  padding: 0 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+
+.navigation img {
+  width: 196px;
+}
+
+li.header {
+  display: flex;
+  column-gap: 42px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header a {
+  color: var(--black-light);
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+/* ?  */
+
+.box-for-map {
+  background-image: url(../img/location/bg-for-map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 730px;
+  margin-right: 30px;
+  padding: 58px 95px;
+}
+
+.box-for-map h3 {
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--orange-bg-color);
+  margin-bottom: 24px;
+}
+
+.box-for-map p {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 190px;
+  width: 100%;
+}
+
+.map-box {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.location-box {
+  position: relative;
+  left: 300px;
+  top: -80px;
+}
+
+.map-box-2 {
+  margin-right: 0;
+  margin-left: 30px;
+}
