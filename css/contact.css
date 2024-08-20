@@ -91,3 +91,130 @@ button {
   line-height: 14px;
   letter-spacing: 2px;
 }
+
+/* ! */
+
+.boss-div {
+  background-image: url(../img/contact/bg-img-contact.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 90px 161px 95px;
+}
+
+.page-left h2 {
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--white-color);
+  padding-bottom: 32px;
+}
+
+.page-left p {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 445px;
+  width: 100%;
+  color: var(--white-color);
+}
+
+.page-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--white-color);
+  background-color: var(--orange-bg-color);
+  color: var(--white-color);
+  width: 380px;
+  padding-bottom: 21px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+input:hover {
+  border-bottom: 3px solid var(--white-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: var(--white-color);
+}
+
+input#fname {
+  color: var(--white-color);
+}
+
+input:active {
+  background-color: var(--orange-bg-color);
+  color: var(--white-color);
+  border-bottom: 3px solid var(--white-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.submit {
+  padding: 15px 43px;
+  border-radius: 5px;
+  background-color: var(--white-color);
+  margin-top: 20px;
+  position: relative;
+  left: 245px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: rgba(247, 182, 168, 0.6);
+}
+
+.submit:active {
+  background-color: var(--black-light);
+  color: var(--white-color);
+}
+
+input#text.massage {
+  padding-bottom: 65px;
+}
+
+.section-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+.section-box h3 {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  margin-top: 48px;
+}
+
+.section-box button {
+  padding: 18px 18.5px 16px 18.5px;
+  margin-top: 32px;
+  background-color: var(--orange-bg-color);
+  border: none;
+}
+
+.section-box button a {
+  color: var(--white-color);
+}
+
+.section-box button:hover {
+  background-color: rgba(247, 182, 168, 1);
+  border: none;
+}
+
+.section-main-page {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 160px;
+}

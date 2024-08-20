@@ -164,3 +164,43 @@ button {
   display: flex;
   margin-bottom: 160px;
 }
+
+/*  */
+
+.section-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  width: 100%;
+}
+
+.section-box h3 {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  margin-top: 48px;
+}
+
+.section-box button {
+  padding: 18px 18.5px 16px 18.5px;
+  margin-top: 32px;
+  background-color: var(--orange-bg-color);
+  border: none;
+}
+
+.section-box button a {
+  color: var(--white-color);
+}
+
+.section-box button:hover {
+  background-color: rgba(247, 182, 168, 1);
+  border: none;
+}
+
+.section-main-page {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 160px;
+}
