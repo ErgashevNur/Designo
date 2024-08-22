@@ -372,9 +372,12 @@ address {
 .box-for-icons {
   position: relative;
   display: flex;
-  row-gap: 15px;
   left: 930px;
   top: -100px;
+}
+
+.box-for-icons img {
+  margin-left: 7px;
 }
 
 a.tel-number {
@@ -404,21 +407,35 @@ a.tel-number {
   }
 }
 
+@media screen and (max-width: 1170px) {
+  .box-for-icons {
+    left: 620px;
+    top: -100px;
+  }
+}
+
 @media screen and (max-width: 1130px) {
   .box-for-icons {
-    left: 730px;
+    left: 620px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .box-for-icons {
-    left: 830px;
+    left: 620px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .box-for-icons {
+    left: 620px;
+    top: -100px;
   }
 }
 
 @media screen and (max-width: 1025px) {
   .box-for-icons {
-    left: 730px;
+    left: 620px;
   }
 }
 
@@ -570,8 +587,7 @@ a.tel-number {
   .box-for-icons {
     position: relative;
     display: inline-block;
-    gap: 20px;
-    left: 500px;
+    left: 620px;
     top: -100px;
     color: #ffffff;
   }
@@ -585,11 +601,23 @@ a.tel-number {
   }
 }
 
+@media screen and (max-width: 890px) {
+  .box-for-icons {
+    left: 480px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .box-for-icons {
+    left: 450px;
+    top: -100px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .box-for-icons {
     position: relative;
     display: inline-block;
-    gap: 20px;
     left: 250px;
     top: -50px;
     color: #ffffff;
@@ -675,6 +703,14 @@ a.tel-number {
   .navigation-header {
     display: flex;
     align-items: center;
+  }
+
+  .hero h1 {
+    width: 100%;
+  }
+
+  .hero p {
+    width: 100%;
   }
 
   img.burger {
