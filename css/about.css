@@ -94,6 +94,10 @@ button {
   letter-spacing: 2px;
 }
 
+.bg-tablet {
+  display: none;
+}
+
 .hero {
   background-image: url(../img/about-us/bg-img.png);
   background-repeat: no-repeat;
@@ -292,6 +296,7 @@ location-box {
   line-height: 26px;
   max-width: 190px;
   width: 100%;
+  color: rgba(160, 160, 160, 0.5);
 }
 
 .location-box {
@@ -312,430 +317,105 @@ address {
   top: -100px;
 }
 
-@media screen and (max-width: 1270px) {
-  .box-for-icons {
-    display: inline-block;
-  }
-
-  .location-box {
-    display: inline-block;
-  }
-
-  .btn {
-    padding: 17px 19px;
-    background-color: #ffffff;
-    position: relative;
-    left: 500px;
-    top: -80px;
-    font-size: 15px;
-    line-height: 21.68px;
-    letter-spacing: 1px;
-    color: #333136;
-    border-radius: 15px;
-  }
-}
-
-@media screen and (max-width: 1130px) {
-  .box-for-icons {
-    left: 730px;
-  }
-
-  .picture-div {
-    padding: 40px 25px;
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .hero p,
-  h1 {
-    max-width: 350px;
-  }
-
-  .hero h1 {
-    position: relative;
-    left: 20px;
-  }
-
-  .hero {
-    padding: 25px;
-    justify-content: flex-start;
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  .box-for-icons {
-    left: 730px;
-  }
-
-  .hero h1 {
-    padding-top: 75px;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .navigation {
-    align-items: center;
-  }
-
-  .bg-img-header img {
-    width: 350px;
-  }
-
-  .hero {
-    background-image: url(../img/about-us/bg-img.png);
-    padding: 0;
-    margin-bottom: 120px;
-    background-size: cover;
-    text-align: center;
-    height: 353px;
-  }
-
-  .hero h1 {
-  }
-
-  .hero p {
-    margin: 0;
-    margin-top: 18px;
-    padding-bottom: 0;
-  }
-
-  /* ? */
-
-  .all-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 24px;
-  }
-
-  /* * */
-
-  .first-box {
-    background-image: url(../img/laptop.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    border-radius: 15px;
-    width: 100%;
-    height: 200px;
-  }
-
-  .first-box h3,
-  .first-box h4 {
-    position: relative;
-    top: 50px;
-  }
-
-  .second-box {
-    background-image: url(../img/mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    text-align: center;
-    border-radius: 15px;
-    width: 100%;
-    height: 200px;
-  }
-
-  .family-boxes {
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
-    width: 100%;
-  }
-
-  .family-boxes h3,
-  .family-boxes h4 {
-    position: relative;
-    top: 50px;
-    color: var(--white-color);
-  }
-
-  .third-box {
-    background-image: url(../img/graphic-design.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    text-align: center;
-    border-radius: 15px;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 140px;
-  }
-
-  /* ? */
-
-  .father-div {
-    flex-direction: column;
-  }
-
-  .active-box {
-    text-align: left;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 42px;
-  }
-
-  .text-box {
-    width: 100%;
-    margin-left: 48px;
-  }
-
-  .text-box h3 {
-    margin-top: 0;
-  }
-
-  .text-box p {
-    margin-bottom: 0;
-  }
-
-  /* ! */
-
-  .last-box-main {
-    padding: 57px 59px 57px 58px;
-    position: relative;
-    top: 65px;
-    text-align: center;
-    width: 100%;
-    height: 350px;
-    margin: auto;
-  }
-  .btn {
-    padding: 17px 19px;
-    left: 0px;
-    top: 40px;
-    color: #333136;
-    border-radius: 8px;
-  }
-
-  .last-box-main h3 {
-    margin: auto;
-  }
-
-  .last-box-main p {
-    margin: auto;
-    margin-top: 25px;
-  }
-
-  /*  */
-
-  .box-for-icons {
-    position: relative;
-    display: inline-block;
-    gap: 20px;
-    left: 500px;
-    top: -100px;
-    color: #ffffff;
-  }
-
-  .location-box {
-    display: inline-block;
-    position: relative;
-    left: 250px;
-    top: -80px;
-    color: #ffffff;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .box-for-icons {
-    position: relative;
-    display: inline-block;
-    gap: 20px;
-    left: 250px;
-    top: -50px;
-    color: #ffffff;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .hero {
-    position: relative;
-    top: 355px;
-    width: 100%;
-  }
+a.tel-number {
+  color: rgba(160, 160, 160, 0.5);
 }
 
 @media screen and (max-width: 690px) {
-  li.li-header {
+  .container {
+    padding: 0 40px;
+  }
+
+  .bg-tablet {
+    display: block;
+  }
+
+  .bg-desctop {
     display: none;
   }
 
-  img.burger {
-    display: block;
-    width: 24px;
-    display: flex;
-    align-items: center;
+  .all-bg-img {
+    flex-direction: column;
+    margin-bottom: 120px;
   }
 
   .hero {
-    background-image: url(../img/about-us/bg-img.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 80px 24px 0 24px;
-    border-radius: 15px;
-    margin-bottom: 120px;
-    width: 100%;
-    height: 843px;
+    width: 606px;
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    border-bottom-right-radius: 10px;
   }
 
   .hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+    padding-top: 64px;
     text-align: center;
   }
 
   .hero p {
-    font-size: 15px;
-    line-height: 25px;
+    padding-bottom: 64px;
+    text-align: center;
   }
 
-  /* ? */
+  /*? main section 1 */
 
-  .first-box {
-    height: 327px;
+  .hiro-box {
+    flex-direction: column;
   }
 
-  .first-box h3,
-  .first-box h4 {
-    position: relative;
-    top: 100px;
+  .picture-div {
+    width: 606px;
+    padding: 68px 58px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
   }
 
-  .second-box {
-    height: 327px;
+  .picture-div h3 {
+    justify-content: center;
   }
 
-  .family-boxes h3,
-  .family-boxes h4 {
-    position: relative;
-    top: 100px;
-    color: var(--white-color);
-  }
-
-  .third-box {
-    height: 327px;
+  .section-main-page {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
     margin-bottom: 120px;
   }
-}
 
-@media screen and (max-width: 660px) {
-  .hero h1 {
-    width: 473px;
-  }
-
-  .footer-section {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navigation-header {
-    display: flex;
-    align-items: center;
-  }
-
-  img.burger {
-    display: block;
-    width: 24px;
-    display: flex;
-    align-items: center;
-  }
-
-  .active-box {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .section-box {
     justify-content: center;
-    margin: auto;
-    margin-bottom: 80px;
   }
 
-  .text-box {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .text-box h3 {
-    margin-top: 48px;
-  }
-
-  .text-box p {
-    margin-bottom: 0;
+  .btn {
+    left: 0;
+    top: 35px;
   }
 
   .last-box-main {
-    padding: 64px 24px 0px 24px;
-    height: 379px;
+    padding: 57px 59px;
+    text-align: center;
+    top: 0;
+    height: 350px;
+    position: relative;
+    top: 100px;
   }
 
   .last-box-main h3 {
-    font-size: 32px;
-    line-height: 36px;
-    width: 100%;
-  }
-
-  .last-box-main p {
-    font-size: 15px;
-    line-height: 25px;
-    width: 100%;
-    margin-top: 15px;
-  }
-
-  .footer-section {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    row-gap: 15px;
-    margin-top: 10px;
-  }
-
-  .footer-section a {
-    color: var(--white-color);
-  }
-
-  .navigation-footer {
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-  }
-
-  .box-for-map {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    width: 335px;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-  }
-
-  hr {
-    position: relative;
-    top: -110px;
-  }
-
-  .box-for-map p {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .box-for-icons {
-    left: 0px;
-    top: 0px;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    margin: auto;
   }
 
   .location-box {
     display: inline-block;
-    position: relative;
-    left: 0px;
-    top: 0px;
+    left: 250px;
+  }
+
+  .box-for-icons {
+    left: 480px;
+    gap: 8px;
+    display: inline-block;
   }
 }
